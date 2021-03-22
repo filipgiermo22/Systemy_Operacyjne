@@ -1,0 +1,1 @@
+﻿Measure-Command{ping wp.pl} | Select-Object -Property TotalMilliseconds | Format-List
